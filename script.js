@@ -11,3 +11,10 @@ window.onscroll = () => {
   navbar.classList.remove("active");
 }
 
+const typed = new Typed('.muliple-text', {
+      strings: ['Frontend Developer', 'Backend Developer', 'UI/UX Designer', 'Web Designer'],
+      typeSpeed: 80,
+      backSpeed: 160,
+      backDelay: 1200,
+      loop: true
+    });
